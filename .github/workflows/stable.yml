@@ -31,7 +31,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           username: ${{ github.actor }}
-          password: ${{ secrets.TOKENGH }}
+          password: ${{ secrets.GOLANGAPP }}
           registry: ghcr.io
           repository: ghcr.io/ArenDjango/notion-recurring-tasks/webinar
           tag_with_ref: true
