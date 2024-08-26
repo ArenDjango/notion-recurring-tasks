@@ -12,6 +12,7 @@ func init() {
 		DisableColors: false,
 	})
 	log.SetOutput(os.Stdout)
+
 	level, err := log.ParseLevel(os.Getenv("LOGLVL"))
 	if err != nil {
 		level = log.InfoLevel
