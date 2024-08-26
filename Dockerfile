@@ -1,5 +1,5 @@
 #---Build stage---
-FROM golang:1.18 AS builder
+FROM golang:1.22 AS builder
 COPY . /go/src/notion-recurring-tasks
 WORKDIR /go/src/notion-recurring-tasks/cmd
 

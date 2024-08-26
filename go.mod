@@ -1,6 +1,6 @@
 module github.com/ArenDjango/notion-recurring-tasks
 
-go 1.22.6
+go 1.22
 
 require (
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
