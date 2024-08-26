@@ -33,5 +33,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GOLANGAPP }}
           registry: ghcr.io
-          repository: ghcr.io/ArenDjango/notion-recurring-tasks/webinar
+          repository: ghcr.io/arendjango/notion-recurring-tasks/webinar
           tag_with_ref: true
